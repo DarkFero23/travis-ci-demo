@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-  - "14"
+  - "lts/*" # Usar la versión LTS de Node.js
 script:
-  - npm install
   - npm test

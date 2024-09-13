@@ -1,15 +1,15 @@
 {
   "name": "travis-ci-demo",
   "version": "1.0.0",
-  "description": "Demo project for Travis CI",
-  "main": "test.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "^10.0.0"
-  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
