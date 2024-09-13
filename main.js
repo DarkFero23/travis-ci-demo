@@ -1,6 +1,6 @@
 // main.js
 function greet(name) {
-  return `Hello, ${name}!`;
+  return `Hola, ${name}!`;
 }
 
 module.exports = greet;
