@@ -1,15 +1,14 @@
 {
   "name": "travis-ci-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo project for Travis CI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "mocha": "^10.7.3"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
